@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-easyocr
-opencv-python
-streamlit
-pillow
-numpy
-=======
 streamlit==1.52.1
 easyocr==1.7.2
 opencv-python-headless==4.9.0.80
 numpy==1.26.4
 pillow==10.4.0
->>>>>>> 256c4fa557cff64c874db96b3871ee70aa83ccca
