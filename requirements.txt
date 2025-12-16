@@ -1,5 +1,5 @@
 easyocr
-opencv-python
+opencv-python-headless==4.12.0.88
 streamlit
 pillow
 numpy
