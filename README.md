@@ -1,4 +1,4 @@
-# 📦 OCR-Based Text Extraction 
+# OCR-Based Text Extraction 
 
 ---
 
@@ -182,7 +182,7 @@ Accuracy = (Correct Extractions / Total Images Tested) × 100
 
 ---
 
-## ⚠️ Challenges & Solutions
+## Challenges & Solutions
 
 ### Challenges
 
@@ -199,7 +199,7 @@ Accuracy = (Correct Extractions / Total Images Tested) × 100
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Dynamic barcode region detection
 * Multi-pass EasyOCR for failed cases
@@ -209,17 +209,21 @@ Accuracy = (Correct Extractions / Total Images Tested) × 100
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > Screenshots demonstrate real extraction results from the application.
 
 ```md
-![Extraction Result]("Screenshot 2025-12-16 142139.png")
-![Extraction Result]("Screenshot 2025-12-16 142156.png")
+![Extraction Result]("Screenshots/Screenshot 2025-12-16 142139.png")
+![Extraction Result]("Screenshots/Screenshot 2025-12-16 142156.png")
 ```
+
+## Streamlit :
+
+### LINK :- https://ocr-text-extractor-mn1.streamlit.app/
 ---
 
-## 👤 Author
+## Author
 
 **Mohit Nagda**
 AI / ML | Computer Vision
