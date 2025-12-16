@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# Temporary files
+temp.jpg
+*.log
+
+# OCR cache
+.easyocr/
+
+# Dataset (excluded from GitHub)
+Sample_img/
