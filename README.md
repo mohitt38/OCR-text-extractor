@@ -216,7 +216,6 @@ Screenshots demonstrate real extraction results from the application.
 ![Extraction Result](screenshots/sam1.png)
 ![Extraction Result](screenshots/sam2.png)
 
-```
 
 ## Streamlit :
 
