@@ -211,11 +211,11 @@ Accuracy = (Correct Extractions / Total Images Tested) × 100
 
 ## Screenshots
 
-> Screenshots demonstrate real extraction results from the application.
+Screenshots demonstrate real extraction results from the application.
 
-```md
 ![Extraction Result](screenshots/sam1.png)
 ![Extraction Result](screenshots/sam2.png)
+
 ```
 
 ## Streamlit :
