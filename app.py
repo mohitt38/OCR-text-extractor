@@ -25,7 +25,7 @@ if uploaded_file:
     cv2.imwrite(temp_path, image)
 
     # Barcode decode (authoritative)
-    barcode_text = decode_barcode(temp_path)
+   ## barcode_text = decode_barcode(temp_path)
 
     # Preprocess image (used internally ONLY)
     processed = preprocess_image(image)
