@@ -30,22 +30,20 @@ if uploaded_file:
     # Preprocess image (used internally ONLY)
     processed = preprocess_image(image)
 
-    if barcode_text:
-        st.success("Barcode decoded successfully")
-        st.write("**Extracted Text:**", barcode_text)
+   ## if barcode_text:
+    ##    st.success("Barcode decoded successfully")
+     ##   st.write("**Extracted Text:**", barcode_text)
 
+    ##else:
+    st.warning("Trying OCR fallback...")
+    ocr_results = run_ocr(processed)
+    
+    #Strict regex extraction
+    text, conf = extract_barcode_text(ocr_results)
+    
+    if text and conf >= 0.6:
+        st.success("OCR extraction successful")
+        st.write("**Extracted Text:**", text)
+        st.write("**Confidence:**", f"{conf:.2f}") 
     else:
-        st.warning("Trying OCR fallback...")
-
-        # OCR
-        ocr_results = run_ocr(processed)
-
-        # Strict regex extraction
-        text, conf = extract_barcode_text(ocr_results)
-
-        if text and conf >= 0.6:
-            st.success("OCR extraction successful")
-            st.write("**Extracted Text:**", text)
-            st.write("**Confidence:**", f"{conf:.2f}")
-        else:
-            st.error("Extraction failed. No valid text found.")
+        st.error("Extraction failed. No valid text found.")
