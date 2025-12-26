@@ -4,7 +4,7 @@ import easyocr
 @st.cache_resource
 def load_reader():
     # Lazy-load and cache the OCR model
-    return easyocr.Reader(['en'], gpu=False)
+    return easyocr.Reader(['en'], gpu=True)
 
 def run_ocr(image):
     reader = load_reader()
