@@ -17,7 +17,7 @@ if uploaded_file:
     file_bytes = np.frombuffer(uploaded_file.read(), np.uint8)
     image = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
 
-    # ✅ Show ONLY uploaded image
+    # Show ONLY uploaded image
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
     # Save temp image
